@@ -11,7 +11,6 @@ public class CreateUsers {
     public void run() {
         Chat chat = new Chat();
         Scanner scanner = new Scanner(System.in);
-        int count = 0;
         for (int i = 0; i < MAX_USERS; i++) {
             System.out.println("Введіть ім'я " + (i + 1) + "-го користувача: ");
             String name = scanner.nextLine();
