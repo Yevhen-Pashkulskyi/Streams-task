@@ -11,11 +11,11 @@ public class CreateUsers {
     public void run() {
         Chat chat = new Chat();
         Scanner scanner = new Scanner(System.in);
-
+        int count = 0;
         for (int i = 0; i < MAX_USERS; i++) {
-            System.out.println("Введіть ім'я " + (i + 1) + "-го користувача: ");
+            System.out.println("Введіть ім'я " + (count + 1) + "-го користувача: ");
             String name = scanner.nextLine();
-            System.out.println("Введіть е-пошту " + (i + 1) + "-го коритсувача: ");
+            System.out.println("Введіть е-пошту " + (count + 1) + "-го коритсувача: ");
             String email = scanner.nextLine();
             chat.addUser(new User(name, email));
         }
