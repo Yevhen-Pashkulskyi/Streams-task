@@ -1,10 +1,10 @@
 package app;
 
-import app.controller.CreateUsers;
+import app.view.UserRecording;
 
 public class Main {
     public static void main(String[] args) {
-        CreateUsers createUsers = new CreateUsers();
-        createUsers.run();
+        UserRecording userRecording = new UserRecording();
+        userRecording.run();
     }
 }

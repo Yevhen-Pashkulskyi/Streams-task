@@ -1,6 +1,7 @@
-package app.controller;
+package app.view;
 
-import app.model.User;
+import app.controller.Chat;
+import app.entity.User;
 
 import java.util.Scanner;
 

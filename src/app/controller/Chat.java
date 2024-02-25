@@ -1,6 +1,6 @@
 package app.controller;
 
-import app.model.User;
+import app.entity.User;
 
 import java.util.ArrayList;
 import java.util.List;
