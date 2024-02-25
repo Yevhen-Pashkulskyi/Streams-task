@@ -2,10 +2,9 @@ package app.controller;
 
 import app.model.User;
 
-import java.util.List;
 import java.util.Scanner;
 
-public class CreateUsers {
+public class UserRecording {
     private final int MAX_USERS = 5;
 
     public void run() {
