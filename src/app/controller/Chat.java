@@ -22,16 +22,16 @@ public class Chat {
                 .collect(Collectors.toList());
     }
 
-    public void printFilterUsers(String filter) {
-        List<User> filteredUsers = filterUsers(filter);
-        if (filteredUsers.isEmpty()) {
-            System.out.println("Немає користувачів, які мають в е-пошті " + filter);
-        } else {
-            System.out.println("Коритсувачі, які мають в е-пошті " + filter + ": "
-                    + filteredUsers.size());
-            for (User user : filteredUsers) {
-                System.out.println(user);
-            }
-        }
-    }
+//    public void printFilterUsers(String filter) {
+//        List<User> filteredUsers = filterUsers(filter);
+//        if (filteredUsers.isEmpty()) {
+//            System.out.println("Немає користувачів, які мають в е-пошті " + filter);
+//        } else {
+//            System.out.println("Коритсувачі, які мають в е-пошті " + filter + ": "
+//                    + filteredUsers.size());
+//            for (User user : filteredUsers) {
+//                System.out.println(user);
+//            }
+//        }
+//    }
 }

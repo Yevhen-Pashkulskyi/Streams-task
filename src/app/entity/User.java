@@ -19,7 +19,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "Ім'я: " + nameUser + '\'' +
-                ", e-пошта: " + emailUser + '\'';
+        return "Ім'я: " + nameUser  +
+                ", e-пошта: " + emailUser;
     }
 }
