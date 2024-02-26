@@ -13,18 +13,20 @@ public class UserRecording {
         Chat chat = new Chat();
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < MAX_USERS; i++) {
+
             System.out.println("Введіть ім'я " + (i + 1) + "-го користувача: ");
-//            String name = scanner.nextLine();
-            String name = "123 ".concat(String.valueOf(i));
+            String name = scanner.nextLine();
+
             System.out.println("Введіть е-пошту " + (i + 1) + "-го коритсувача: ");
-//            String email = scanner.nextLine();
-            String email = "123 ".concat(String.valueOf(i));
+            String email = scanner.nextLine();
+
             chat.addUser(new User(name, email));
         }
         System.out.println("Пошук користувачів з однаковим параметром \n"
                 + "Введіть параметр : ");
         String filter = scanner.nextLine();
         scanner.close();
+
         printFilterUsers(chat, filter);
     }
 
